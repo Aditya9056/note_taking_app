@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+    display: grid;
+}
+
+h1{
+    display: grid;
+    font-family: sans-serif;
+    margin: 100px;
+    justify-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#add_note{
+    justify-items: center;
+    margin: 30px;
+}
+textarea{
+    background-color:darkcyan;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#notes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#notes p{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+}
